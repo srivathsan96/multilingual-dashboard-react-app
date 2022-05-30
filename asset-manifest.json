@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/multilingual-dashboard-react-app/static/css/main.c80dfacb.css",
+    "main.js": "/multilingual-dashboard-react-app/static/js/main.7e647845.js",
+    "static/media/coke.png": "/multilingual-dashboard-react-app/static/media/coke.c8a799e8017a2fc3c2ca.png",
+    "static/media/chocolate.png": "/multilingual-dashboard-react-app/static/media/chocolate.fd0c2cfde77ab5a51cc0.png",
+    "index.html": "/multilingual-dashboard-react-app/index.html",
+    "static/media/getFetch.cjs": "/multilingual-dashboard-react-app/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.c80dfacb.css.map": "/multilingual-dashboard-react-app/static/css/main.c80dfacb.css.map",
+    "main.7e647845.js.map": "/multilingual-dashboard-react-app/static/js/main.7e647845.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c80dfacb.css",
+    "static/js/main.7e647845.js"
+  ]
+}
