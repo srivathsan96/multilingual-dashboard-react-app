@@ -1,0 +1,15 @@
+.reports {
+  display: flex;
+}
+
+.reportsContainer {
+  flex: 1;
+  background-color: #f5f5f5;
+}
+
+.listContainer {
+  display: flex;
+  height: auto;
+  padding: 10px;
+  flex-direction: column;
+}

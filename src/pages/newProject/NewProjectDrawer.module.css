@@ -1,0 +1,221 @@
+.icon {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerIcon {
+    padding: 10px;
+}
+
+.listIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #e362e3;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.container,
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    color: #555;
+}
+
+.box {
+    margin: 20px;
+    display: flex;
+}
+
+.headerData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.headerNav {
+    width: 100%;
+}
+
+.navItems {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.navItems li {
+    margin: 5px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navItems li:hover {
+    color: #e362e3;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    border: 1px solid #555;
+}
+
+.projectInfo .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.row .item,
+input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.item .title {
+    color: #bc0000;
+    position: absolute;
+    top: 315px;
+}
+
+.item .value,
+input,
+select,
+.btn {
+    border: 1px solid #555;
+    border-radius: 10px;
+    color: #555;
+}
+
+.item .title,
+.item .value,
+input,
+select {
+    width: 220px;
+    padding: 5px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 10px;
+    font-weight: bold;
+    color: red;
+    background-color: #eeeeee;
+}
+
+.instructionPoints {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.instructionPoints p {
+    padding-bottom: 10px;
+    color: orangered;
+}
+
+.insPts {
+    width: 100%;
+    height: 105px;
+    overflow: auto;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.option {
+    width: 220px;
+    padding: 5px;
+}
+
+input,
+select {
+    outline: none;
+    font-size: 16px;
+}
+
+.dateInput {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    background: none;
+    outline: none;
+    font-size: 16px;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: lightseagreen;
+}
+
+/* Media Queries */
+
+/* iPads, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .item .title,
+    .item .value,
+    input,
+    select,
+    .btn {
+        width: 100px;
+        padding: 5px;
+        font-size: 11px;
+    }
+
+    .item .title {
+        top: 335px;
+    }
+}
+
+/* Small screens, laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .item .title,
+    .item .value,
+    input,
+    select,
+    .btn {
+        width: 140px;
+        padding: 5px;
+        font-size: 11px;
+    }
+
+    .item .title {
+        top: 335px;
+    }
+}

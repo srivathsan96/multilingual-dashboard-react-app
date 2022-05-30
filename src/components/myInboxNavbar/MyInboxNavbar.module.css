@@ -1,0 +1,67 @@
+.navbar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #000;
+  background-color: lightgray;
+  position: sticky;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+}
+
+.items .item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  position: relative;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.listIcon,
+.multiIcon {
+  display: flex;
+  align-self: center;
+  color: #555;
+}
+
+.listIcon {
+  padding: 3px;
+  background-color: #555;
+  color: #fff;
+}
+
+.search {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid lightgray;
+  margin-right: 20px;
+  border: 1px solid gray;
+  background-color: #fff;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background: transparent;
+}

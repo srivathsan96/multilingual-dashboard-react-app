@@ -1,0 +1,22 @@
+.projectsList {
+  display: flex;
+}
+
+.projectsListContainer {
+  flex: 1;
+}
+
+.listContainer {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.projects {
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  list-style: none;
+}

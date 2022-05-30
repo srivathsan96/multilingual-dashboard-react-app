@@ -1,0 +1,145 @@
+.icon {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerIcon {
+    padding: 10px;
+}
+
+.listIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #e362e3;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.container,
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    margin: 20px;
+    display: flex;
+}
+
+.headerData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.headerNav {
+    width: 100%;
+}
+
+.navItems {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.navItems li {
+    margin: 5px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navItems li:hover {
+    color: #e362e3;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    border: 1px solid #555;
+}
+
+.productInfo .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.item .title {
+    color: #bc0000;
+}
+
+.item .value {
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+.item .title,
+.item .value {
+    width: 220px;
+    padding: 5px;
+}
+
+
+/* Media Queries */
+
+/* iPads, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .item .title,
+    .item .value,
+    input {
+        width: 100px;
+        padding: 5px;
+        font-size: 11px;
+    }
+}
+
+/* Small screens, laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .item .title,
+    .item .value,
+    input {
+        width: 140px;
+        padding: 5px;
+        font-size: 11px;
+    }
+}
+
+/* Extra large screens, TV */
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
+    .item .title,
+    .item .value,
+    input {
+        width: 170px;
+        padding: 5px;
+        font-size: 14px;
+    }
+}

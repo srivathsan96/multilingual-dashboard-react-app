@@ -1,0 +1,71 @@
+.charts {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.charts .box1,
+.charts .box2 {
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  color: #000;
+}
+
+.charts .box1 {
+  background-color: #fff;
+}
+
+.charts .box2 {
+  background-color: #fff;
+}
+
+.box1,
+.box2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom ul {
+  display: flex;
+}
+
+.bottom ul li {
+  margin: 5px;
+  list-style: none;
+}
+
+.bottom span {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  margin: 5px;
+  display: inline-block;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

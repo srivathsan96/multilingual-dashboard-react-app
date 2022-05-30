@@ -1,0 +1,31 @@
+.search {
+  display: flex;
+}
+
+.searchContainer {
+  flex: 1;
+}
+
+.listContainer {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.box {
+  height: 87vh;
+  background-Color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.searches {
+  margin: 0;
+  padding: 0;
+}
+
+.searches li {
+  list-style: none;
+}

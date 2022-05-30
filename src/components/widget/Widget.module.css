@@ -1,0 +1,86 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  height: 150px;
+}
+
+.widget>.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 5px 10px;
+  background-color: lightgray;
+}
+
+.widget>.top span {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.widget>.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 5px 10px;
+}
+
+.widget>.bottom span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right {
+  width: 200px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.timeData {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.timeData>.top,
+.timeData>.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeData>.top>.item {
+  color: green;
+}
+
+.timeData>.bottom>.item {
+  color: red;
+}
+
+.count {
+  width: 40px;
+  height: 40px;
+  background-color: #21b9bb;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+}
+
+.homeContainer {
+  flex: 1;
+}
+
+.widgets {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.listContainer {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.components {
+  margin: 0;
+  padding: 0;
+}
+
+.components li {
+  list-style: none;
+}
+
+.scrollableDiv {
+  height: 73vh;
+  padding: 10px;
+  overflow: auto;
+}
